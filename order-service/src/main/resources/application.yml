@@ -4,4 +4,4 @@ spring:
   profiles:
     active: dev                  # 👈 environment (dev / test / prod)
   config:
-    import: configserver:http://localhost:8888
+    import: configserver:http://config-container:8888
